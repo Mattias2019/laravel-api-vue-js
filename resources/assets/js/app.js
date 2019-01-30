@@ -5,6 +5,7 @@ Vue.use(VueRouter)
 
 import App from './views/App'
 import Welcome from './views/Welcome'
+import Doctors from './components/Doctors.vue'
 
 const router = new VueRouter({
     mode: 'history',
@@ -14,6 +15,11 @@ const router = new VueRouter({
             name: 'home',
             component: Welcome
         },
+        {
+            path: '/doctors',
+            name: 'doctor',
+            component: Doctors
+        }
     ],
 });
 

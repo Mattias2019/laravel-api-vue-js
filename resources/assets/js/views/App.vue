@@ -12,7 +12,7 @@
                     <ul class="navbar-nav mr-auto"></ul>
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-link"><router-link :to="{name: 'login'}">Login</router-link></li>
+                        <li class="nav-link"><router-link :to="{name: 'doctor'}"> <span class="doctors">Doctors</span></router-link></li>
                     </ul>
                 </div>
             </div>
@@ -27,3 +27,11 @@
     <script>
     export default {}
     </script>
+    <style>
+        .doctors{
+            font-size: 16px;
+            color:aqua;
+            font-weight: 900;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+    </style>

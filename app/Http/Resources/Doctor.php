@@ -23,4 +23,12 @@ class Doctor extends JsonResource
             'note' => $this->note,
         ];
     }
+
+    public function with($request){
+        //retirn version and author url
+        return[
+            'version' => '1.0.0',
+            'author_url' => 'patientdrivecrm.com'
+        ];
+    }
 }
