@@ -8,11 +8,11 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto"></ul>
-                    <!-- Right Side Of Navbar -->
+                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-link"><router-link :to="{name: 'doctor'}"> <span class="doctors">Doctors</span></router-link></li>
+                        <li class="nav-link"><router-link :to="{name: 'doctor'}"> 
+                            <button class="btn btn-primary" style="width:90px">
+                            <i class="fa fa-user-circle"></i> Doctor</button></router-link></li>
                     </ul>
                 </div>
             </div>
@@ -30,7 +30,7 @@
     <style>
         .doctors{
             font-size: 16px;
-            color:aqua;
+            color:crimson;
             font-weight: 900;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
         }
